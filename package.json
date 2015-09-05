@@ -1,0 +1,51 @@
+{
+  "name": "just-css-properties",
+  "version": "0.1.0",
+  "description": "An array of all known browser CSS properties",
+  "main": "vendor/all.json",
+  "files": [
+    "vendor/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "test-spec": "blue-tape {lib,test}/**/*.spec.js",
+    "test-cov": "istanbul cover -x *.spec.js blue-tape -- {lib,test}/**/*.spec.js",
+    "test": "npm run lint && npm run test-cov",
+    "build": "node scripts/build.js && node scripts/all.js"
+  },
+  "standard": {
+    "ignore": [
+      "coverage/**",
+      "node_modules/**",
+      "bower_components/**"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blakeembrey/just-css-properties.git"
+  },
+  "keywords": [
+    "css",
+    "properties",
+    "browser",
+    "chrome",
+    "safari",
+    "phantom",
+    "edge",
+    "firefox"
+  ],
+  "author": "Blake Embrey <hello@blakeembrey.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/just-css-properties/issues"
+  },
+  "homepage": "https://github.com/blakeembrey/just-css-properties",
+  "devDependencies": {
+    "blue-tape": "^0.1.10",
+    "browser-run": "^2.4.0",
+    "istanbul": "^0.3.5",
+    "pre-commit": "^1.1.1",
+    "standard": "^5.0.0"
+  }
+}
