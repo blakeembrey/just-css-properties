@@ -3,6 +3,7 @@
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][downloads-image]][downloads-url]
 [![Build status][travis-image]][travis-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/just-css-properties.svg)](https://greenkeeper.io/)
 
 > An array of all known browser CSS properties (merged from Chrome, Edge, Firefox, PhantomJS and Safari).
 
