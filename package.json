@@ -44,7 +44,7 @@
   "devDependencies": {
     "arrify": "^1.0.1",
     "blue-tape": "^1.0.0",
-    "browser-run": "^4.0.2",
+    "browser-run": "4.0.4",
     "istanbul": "^0.4.5",
     "minimist": "^1.2.0",
     "standard": "^10.0.2"
